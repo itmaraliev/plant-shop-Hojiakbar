@@ -1,0 +1,119 @@
+
+.nav__logo {
+    z-index: 2;
+}
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+.nav__search {
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav__search:hover {
+    opacity: .4;
+}
+.nav__shop {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.nav__shop:hover {
+    opacity: .4;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 56px;
+}
+.page {
+    font-family: 'Montserrat';
+    font-style: normal;
+    align-content: center;
+}
+.main__img {
+    margin-top: -116px;
+    z-index: 1;
+    width: calc(0.475* 100vw);
+    height: 100%;
+    object-fit: cover;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+.nav__signup {
+    width: 111px;
+    height: 36px;
+    background: #FFF;
+    border: 0;
+    color: #156963;
+    cursor: pointer;
+    
+}
+
+.nav__sign {
+    width: 111px;
+    height: 36px;
+    background:  #FFF;
+    border: 0;
+    color: #156963;
+    cursor: pointer;
+    background-color: #156963;
+    color: #FFF;
+}
+.main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main__title {
+   
+    color: #156963;
+    font-weight: 500;
+    
+}
+.function {
+    margin: 100px calc(0.040625* 100vw) 80px;
+    display: grid;
+    gap: 32px;
+}
+.function__item {
+    outline: 1px solid #E0E0E0;
+    max-width: 268px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: 48px 1fr;
+    grid-template-areas:
+        "icon title"
+        "content content";
+    padding: 22px 16px 22px;
+    gap: 16px;
+}
+.function__content {
+    margin: 0;
+    padding: 0;
+    grid-area: content;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+.page {
+    font-family: 'Montserrat';
+    font-style: normal;
+    align-content: center;
+}
+.plants__galerrey {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, 217px);
+    justify-items: stretch;
+}
